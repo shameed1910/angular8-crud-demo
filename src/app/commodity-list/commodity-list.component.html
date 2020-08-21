@@ -1,0 +1,7 @@
+
+
+<select [(ngModel)]="selectedCommodity.id" (input)="onInput($event)">
+  <option *ngFor=" let commodity of commodities" value= {{commodity.id}}>{{commodity.name}}</option>
+
+</select>
+
