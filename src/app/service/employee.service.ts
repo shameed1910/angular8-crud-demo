@@ -3,12 +3,13 @@ import { HttpClient } from '@angular/common/http';
 import {Observable} from "rxjs/index";
 import { ApiResponse } from '../model/api.response';
 import { Employee } from '../model/employee.model';
+import { environment } from 'src/environments/environment';
 
 @Injectable()
 export class EmployeeService {
 
   constructor(private http: HttpClient) { }
-  baseUrl: string = 'http://localhost:8080/api/employees/';
+  private baseUrl: string = environment.baseUrl+'/api/employees/';
 
   
 

@@ -1,8 +1,6 @@
 
 import { EmployeeService } from 'src/app/service/employee.service';
 import { Employee } from 'src/app/model/employee.model';
-import { commodity } from 'src/app/commodity-list/commodity';
-import { weightdesc } from 'src/app/model/weightdesc';
 
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";

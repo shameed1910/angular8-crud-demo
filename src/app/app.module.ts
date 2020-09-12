@@ -7,7 +7,6 @@ import { CreateEmployeeComponent } from './employee/create-employee/create-emplo
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EmployeeService } from './service/employee.service';
 import { HttpClientModule } from '@angular/common/http';
-import { CommodityListComponent } from './commodity-list/commodity-list.component';
 import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
 import { UpdateEmployeeComponent } from './employee/update-employee/update-employee.component';
 import { DataTablesModule } from 'angular-datatables';
@@ -16,7 +15,6 @@ import { DataTablesModule } from 'angular-datatables';
   declarations: [
     AppComponent,
     CreateEmployeeComponent,
-    CommodityListComponent,
     EmployeeListComponent,
     UpdateEmployeeComponent,
     
